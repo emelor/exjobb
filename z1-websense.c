@@ -77,7 +77,7 @@ static float get_mybatt(void){ return (float) ((get_battery()*2.500*2)/4096);}
 static float get_mytemp(void){ return (float) (((get_temp()*2.500)/4096)-0.986)*282;}
 
 /*---------------------------------------------------------------------------*/
-static const char *TOP = "<html><head><title>Contiki Web Sense</title></head><body>\n";
+static const char *TOP = "<html><head><title>Contiki bahula</title></head><body>\n";
 static const char *BOTTOM = "</body></html>\n";
 /*---------------------------------------------------------------------------*/
 /* Only one single request at time */
@@ -93,7 +93,7 @@ generate_chart(const char *title, const char *unit, int min, int max, int *value
   blen = 0;
   ADD("<h1>%s</h1>\n"
       "<img src=\"http://chart.apis.google.com/chart?"
-      "cht=lc&chs=400x300&chxt=x,x,y,y&chxp=1,50|3,50&"
+      "cht=lc&chs=200x150&chxt=x,x,y,y&chxp=1,50|3,50&"
       "chxr=2,%d,%d|0,0,30&chds=%d,%d&chxl=1:|Time|3:|%s&chd=t:",
       title, min, max, min, max, unit);
   for(i = 0; i < HISTORY; i++) {

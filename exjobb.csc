@@ -60,12 +60,30 @@
       <moteinterface>se.sics.cooja.mspmote.interfaces.MspLED</moteinterface>
       <moteinterface>se.sics.cooja.mspmote.interfaces.MspDebugOutput</moteinterface>
     </motetype>
+    <motetype>
+      se.sics.cooja.mspmote.Z1MoteType
+      <identifier>z13</identifier>
+      <description>Z1 Mote Type #z13</description>
+      <firmware EXPORT="copy">[CONTIKI_DIR]/examples/z1/ipv6/z1-websense/z1-websense.z1</firmware>
+      <moteinterface>se.sics.cooja.interfaces.Position</moteinterface>
+      <moteinterface>se.sics.cooja.interfaces.RimeAddress</moteinterface>
+      <moteinterface>se.sics.cooja.interfaces.IPAddress</moteinterface>
+      <moteinterface>se.sics.cooja.interfaces.Mote2MoteRelations</moteinterface>
+      <moteinterface>se.sics.cooja.interfaces.MoteAttributes</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspClock</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspMoteID</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspButton</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.Msp802154Radio</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspDefaultSerial</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspLED</moteinterface>
+      <moteinterface>se.sics.cooja.mspmote.interfaces.MspDebugOutput</moteinterface>
+    </motetype>
     <mote>
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>88.94504286576806</x>
-        <y>4.080963208917104</y>
+        <x>31.97205473732274</x>
+        <y>21.998748759644858</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -78,15 +96,15 @@
       <breakpoints />
       <interface_config>
         se.sics.cooja.interfaces.Position
-        <x>67.74836721294479</x>
-        <y>6.099694223471702</y>
+        <x>2.089975054330535</x>
+        <y>27.07870230575353</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
         se.sics.cooja.mspmote.interfaces.MspMoteID
         <id>2</id>
       </interface_config>
-      <motetype_identifier>z12</motetype_identifier>
+      <motetype_identifier>z13</motetype_identifier>
     </mote>
   </simulation>
   <plugin>
@@ -104,7 +122,7 @@
       <skin>se.sics.cooja.plugins.skins.GridVisualizerSkin</skin>
       <skin>se.sics.cooja.plugins.skins.TrafficVisualizerSkin</skin>
       <skin>se.sics.cooja.plugins.skins.UDGMVisualizerSkin</skin>
-      <viewport>1.9814427831944412 0.0 0.0 1.9814427831944412 93.76048671270367 141.91380490120918</viewport>
+      <viewport>3.346487294755337 0.0 0.0 3.346487294755337 38.00592503432727 0.38146677533376333</viewport>
     </plugin_config>
     <width>400</width>
     <z>1</z>
@@ -118,7 +136,7 @@
       <filter />
     </plugin_config>
     <width>1320</width>
-    <z>6</z>
+    <z>5</z>
     <height>240</height>
     <location_x>400</location_x>
     <location_y>160</location_y>
@@ -135,7 +153,7 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>1720</width>
-    <z>5</z>
+    <z>4</z>
     <height>166</height>
     <location_x>0</location_x>
     <location_y>815</location_y>
@@ -147,7 +165,7 @@
       <decorations>true</decorations>
     </plugin_config>
     <width>1040</width>
-    <z>4</z>
+    <z>3</z>
     <height>160</height>
     <location_x>680</location_x>
     <location_y>0</location_y>
@@ -156,19 +174,10 @@
     SerialSocketServer
     <mote_arg>0</mote_arg>
     <width>422</width>
-    <z>3</z>
+    <z>2</z>
     <height>91</height>
     <location_x>787</location_x>
     <location_y>478</location_y>
-  </plugin>
-  <plugin>
-    se.sics.cooja.plugins.MoteInformation
-    <mote_arg>1</mote_arg>
-    <width>383</width>
-    <z>2</z>
-    <height>195</height>
-    <location_x>180</location_x>
-    <location_y>180</location_y>
   </plugin>
 </simconf>
 

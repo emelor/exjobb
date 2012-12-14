@@ -2001,53 +2001,53 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
                 0x000000000000d58c                _unexpected_
                 0x000000000000d58e                . = ALIGN (0x2)
 
-.rodata         0x000000000000d58e      0x520
+.rodata         0x000000000000d58e      0x51c
                 0x000000000000d58e                . = ALIGN (0x2)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x000000000000d58e      0x1a2 z1-websense.co
-                0x000000000000d71c                autostart_processes
- .rodata        0x000000000000d730      0x139 obj_z1/httpd-simple.o
-                0x000000000000d789                http_index_html
-                0x000000000000d795                http_get
-                0x000000000000d79a                http_header_404
-                0x000000000000d7f7                http_header_200
-                0x000000000000d84d                http_content_type_html
- .rodata        0x000000000000d869      0x10b obj_z1/contiki-z1-main.o
- .rodata        0x000000000000d974        0x8 contiki-z1.a(rimeaddr.o)
-                0x000000000000d974                rimeaddr_null
- .rodata        0x000000000000d97c       0x14 contiki-z1.a(csma.o)
-                0x000000000000d982                csma_driver
- .rodata        0x000000000000d990       0x46 contiki-z1.a(contikimac.o)
-                0x000000000000d9c6                contikimac_driver
- .rodata        0x000000000000d9d6        0xc contiki-z1.a(etimer.o)
- .rodata        0x000000000000d9e2        0xf contiki-z1.a(ctimer.o)
- *fill*         0x000000000000d9f1        0x1 00
- .rodata        0x000000000000d9f2       0x20 contiki-z1.a(uip6.o)
- .rodata        0x000000000000da12        0xd contiki-z1.a(tcpip.o)
- *fill*         0x000000000000da1f        0x1 00
- .rodata        0x000000000000da20       0x24 contiki-z1.a(sicslowpan.o)
-                0x000000000000da2c                sicslowpan_driver
-                0x000000000000da32                llprefix
-                0x000000000000da34                unc_mxconf
-                0x000000000000da38                unc_ctxconf
-                0x000000000000da3c                unc_llconf
- .rodata        0x000000000000da44        0xb contiki-z1.a(webserver-nogui)
- *fill*         0x000000000000da4f        0x1 00
- .rodata        0x000000000000da50       0x22 contiki-z1.a(cc2420.o)
-                0x000000000000da50                cc2420_driver
- .rodata        0x000000000000da72        0x8 contiki-z1.a(sensors.o)
- .rodata        0x000000000000da7a       0x10 contiki-z1.a(button-sensor.o)
-                0x000000000000da82                button_sensor
- .rodata        0x000000000000da8a       0x16 contiki-z1.a(adxl345.o)
- .rodata        0x000000000000daa0        0x4 contiki-z1.a(framer-802154.o)
-                0x000000000000daa0                framer_802154
- .rodata        0x000000000000daa4        0x2 contiki-z1.a(frame802154.o)
- .rodata        0x000000000000daa6        0x7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
-                0x000000000000daae                . = ALIGN (0x2)
- *fill*         0x000000000000daad        0x1 00
-                0x000000000000daae                _etext = .
+ .rodata        0x000000000000d58e      0x19e z1-websense.co
+                0x000000000000d718                autostart_processes
+ .rodata        0x000000000000d72c      0x139 obj_z1/httpd-simple.o
+                0x000000000000d785                http_index_html
+                0x000000000000d791                http_get
+                0x000000000000d796                http_header_404
+                0x000000000000d7f3                http_header_200
+                0x000000000000d849                http_content_type_html
+ .rodata        0x000000000000d865      0x10b obj_z1/contiki-z1-main.o
+ .rodata        0x000000000000d970        0x8 contiki-z1.a(rimeaddr.o)
+                0x000000000000d970                rimeaddr_null
+ .rodata        0x000000000000d978       0x14 contiki-z1.a(csma.o)
+                0x000000000000d97e                csma_driver
+ .rodata        0x000000000000d98c       0x46 contiki-z1.a(contikimac.o)
+                0x000000000000d9c2                contikimac_driver
+ .rodata        0x000000000000d9d2        0xc contiki-z1.a(etimer.o)
+ .rodata        0x000000000000d9de        0xf contiki-z1.a(ctimer.o)
+ *fill*         0x000000000000d9ed        0x1 00
+ .rodata        0x000000000000d9ee       0x20 contiki-z1.a(uip6.o)
+ .rodata        0x000000000000da0e        0xd contiki-z1.a(tcpip.o)
+ *fill*         0x000000000000da1b        0x1 00
+ .rodata        0x000000000000da1c       0x24 contiki-z1.a(sicslowpan.o)
+                0x000000000000da28                sicslowpan_driver
+                0x000000000000da2e                llprefix
+                0x000000000000da30                unc_mxconf
+                0x000000000000da34                unc_ctxconf
+                0x000000000000da38                unc_llconf
+ .rodata        0x000000000000da40        0xb contiki-z1.a(webserver-nogui)
+ *fill*         0x000000000000da4b        0x1 00
+ .rodata        0x000000000000da4c       0x22 contiki-z1.a(cc2420.o)
+                0x000000000000da4c                cc2420_driver
+ .rodata        0x000000000000da6e        0x8 contiki-z1.a(sensors.o)
+ .rodata        0x000000000000da76       0x10 contiki-z1.a(button-sensor.o)
+                0x000000000000da7e                button_sensor
+ .rodata        0x000000000000da86       0x16 contiki-z1.a(adxl345.o)
+ .rodata        0x000000000000da9c        0x4 contiki-z1.a(framer-802154.o)
+                0x000000000000da9c                framer_802154
+ .rodata        0x000000000000daa0        0x2 contiki-z1.a(frame802154.o)
+ .rodata        0x000000000000daa2        0x7 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
+                0x000000000000daaa                . = ALIGN (0x2)
+ *fill*         0x000000000000daa9        0x1 00
+                0x000000000000daaa                _etext = .
 
-.data           0x0000000000001100       0xee load address 0x000000000000daae
+.data           0x0000000000001100       0xee load address 0x000000000000daaa
                 0x0000000000001100                . = ALIGN (0x2)
                 0x0000000000001100                PROVIDE (__data_start, .)
  *(.data .data.* .gnu.linkonce.d.*)
@@ -2088,10 +2088,10 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  .data          0x00000000000011ea        0x4 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(rand.o)
                 0x00000000000011ee                . = ALIGN (0x2)
                 0x00000000000011ee                _edata = .
-                0x000000000000daae                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x000000000000daaa                PROVIDE (__data_load_start, LOADADDR (.data))
                 0x00000000000000ee                PROVIDE (__data_size, SIZEOF (.data))
 
-.bss            0x00000000000011ee     0x1c8c load address 0x000000000000db9c
+.bss            0x00000000000011ee     0x1c8c load address 0x000000000000db98
                 0x00000000000011ee                PROVIDE (__bss_start, .)
  *(.bss .bss.*)
  .bss           0x00000000000011ee      0x150 z1-websense.co
@@ -2221,7 +2221,7 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
                 0x0000000000002e7a                PROVIDE (__bss_end, .)
                 0x0000000000001c8c                PROVIDE (__bss_size, SIZEOF (.bss))
 
-.noinit         0x0000000000002e7a        0x2 load address 0x000000000000db9c
+.noinit         0x0000000000002e7a        0x2 load address 0x000000000000db98
                 0x0000000000002e7a                PROVIDE (__noinit_start, .)
  *(.noinit .noinit.*)
  .noinit.crt0   0x0000000000002e7a        0x2 /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a(__watchdog_support.o)
@@ -2555,6 +2555,6 @@ LOAD /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libcrt0.a
  .debug_ranges  0x0000000000000000        0xc /usr/lib/gcc/msp430/4.6.3/mcpu-430x/mmpy-16/libgcc.a(_clzsi2.o)
  .debug_ranges  0x000000000000000c       0x18 /usr/lib/gcc/msp430/4.6.3/../../../../msp430/lib/mcpu-430x/mmpy-16/libc.a(vuprintf.o)
                 0x0000000000003100                PROVIDE (__stack, (ORIGIN (ram) + 0x2000))
-                0x000000000000daae                PROVIDE (__data_start_rom, _etext)
-                0x000000000000db9c                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+                0x000000000000daaa                PROVIDE (__data_start_rom, _etext)
+                0x000000000000db98                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
 OUTPUT(z1-websense.z1 elf32-msp430)
