@@ -15,3 +15,6 @@
 *.exe
 *.out
 *.app
+obj_z1
+contiki-z1.map
+z1-websense.z1
